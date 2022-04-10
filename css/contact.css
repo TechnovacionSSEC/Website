@@ -1,0 +1,139 @@
+
+
+.contact-form {
+    margin:10px 40px;
+    display: inline-block;
+}
+
+.cnt-form .ip {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(45deg, #272325 40%, #020104);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: monospace;
+}
+
+.cnt-form .ip:after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    z-index: -1;
+    background: linear-gradient(45deg, #ff005e, #fbff00);
+    animation: cnt-form 1.5s linear infinite;
+}
+
+.cnt-form .ip .rainbow {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    filter: blur(15px);
+    z-index: -2;
+}
+
+.cnt-form .ip .rainbow:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(315deg, #ff005e, #fbff00);
+}
+
+.cnt-form .ip .rainbow:after {
+    animation: neon-block 1.5s linear infinite;
+}
+
+@keyframes cnt-form {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.ipf {
+    padding: 10px;
+    background-color: transparent !important;
+    height: 60px;
+    width: 70px;
+    color: #fbff00 !important;
+    border: none !important;
+}
+
+.ip1 {
+    height: 100%  !important;
+    width: 100%  !important;
+}
+
+.ip2 {
+    max-height:100%  !important;
+    width: 100% !important;
+}
+
+.cont-title {
+    color: #ff005e;
+    padding: 50px 30px 30px 10px;
+}
+
+.website {
+    color: #fbff00;
+    text-decoration: none;
+}
+
+.website:visited {
+    color: #fbff00;
+    text-decoration: none;
+}
+
+.website:focus {
+    color: #fbff00;
+    text-decoration: none;
+}
+
+.website:hover{
+    color: #fbff00;
+    text-decoration: none;
+}
+
+.website:hover, .website:active {
+    color: #fbff00;
+    text-decoration: none;
+}
+
+.ph-no{
+    color:#ff005e;
+}
+
+.write-us{
+    color:aqua;
+}
+
+.cntct{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left:10vw;
+    font-size: 200%;
+}
+@media screen and (max-width:1000px) 
+{
+    .cntct{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+}

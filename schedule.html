@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Schedule</title>
+    <link href="images/favicon.png" rel="icon">
+    <link href="images/apple.png" rel="apple">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="schedule.css">
+    <link rel="stylesheet" href="css/aboutus.css">
+
+    <script src='js\jquery-3.2.1.min.js'></script>
+
+    <script src="js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.birds.min.js"></script>
+    <style>
+      .sb{
+        width:160px;
+        height:12.5vh;
+    }
+    @media  (max-width:800px){
+        .sb{
+            width:20vw;
+            height:10vh;
+        }}
+        .title h5{
+          colour:black;
+        }
+    </style>
+</head>
+<body style="background-image: url('images/bg-img/bg-schedule.jpg');height: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;   background-attachment: fixed;
+">
+<section>
+  <div id="preloader">
+    <div id="ctn-preloader" class="ctn-preloader">
+      <div class="animation-preloader">
+        <div class="spinner"></div>
+        <div class="txt-loading">
+          <span data-text-preloader="T" class="letters-loading">
+            T
+          </span>
+          
+          <span data-text-preloader="E" class="letters-loading">
+            E
+          </span>
+          
+          <span data-text-preloader="C" class="letters-loading">
+            C
+          </span>
+          
+          <span data-text-preloader="H" class="letters-loading">
+            H
+          </span>
+          
+          <span data-text-preloader="N" class="letters-loading">
+            N
+          </span>
+          
+          <span data-text-preloader="O" class="letters-loading">
+            O
+          </span>
+          
+          <span data-text-preloader="V" class="letters-loading">
+            V
+          </span>
+                      <span data-text-preloader="A" class="letters-loading">
+            A
+          </span>
+                      <span data-text-preloader="C" class="letters-loading">
+            C
+          </span>
+                      <span data-text-preloader="I" class="letters-loading">
+            I
+          </span>
+                      <span data-text-preloader="O" class="letters-loading">
+            O
+          </span>
+                      <span data-text-preloader="N" class="letters-loading">
+            N
+          </span>
+        </div>
+      </div>	
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+  </div>
+</section> 
+<header class="site-header" id="Birds">
+  <div class="header-bar" style="display: flex;flex-direction: row;">
+    <div style="display: flex; flex-direction: row; width:2vw;">
+      <div id="site-branding">
+        <a href="https:sairam.edu.in/"><img src="images\sairam1.png" class="sb" style="padding-left:.9vw;"></a>
+    </div>
+    <div id="site-branding">
+        <a href="#"><img src="images\ieee2.png" class="sb" style="padding-left:.9vw;"></a>
+    </div>
+    
+    <div id="site-branding">
+        <a href="#"><img src="images\ieee1.png" class="sb" style="padding-left:.9vw;"></a>
+    </div>
+    <div id="site-branding">
+        <a href="#">
+            <img src="images\team_1\SpaaX.png" class="sb" style="padding-left:.9vw;"></a>
+    </div>
+  </div>
+      <div class="container-fluid">
+          <div class="row align-items-center" >
+                  <nav class="site-navigation" >
+                      <div class="hamburger-menu ">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                      </div><!-- .hamburger-menu -->
+                      <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="theme.html">Theme</a></li>
+                        <li><a href="prize.html">Prize</a></li>
+                        <li class="neon-button" id="neon-btn" style="padding: 0;margin:0;">
+                            <a href="#" class="btn btn-neon btn-slow" >
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Schedule
+                            </a>
+                        </li>
+                        <li><a href="speaker.html">Speaker</a></li>
+                        <li><a href="judges.html">Judges</a></li>                       
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav><!-- .site-navigation -->              
+          </div><!-- .row -->
+      </div><!-- .container-fluid -->
+  </div><!-- .header-bar -->
+</header>
+
+
+
+
+
+
+<!--<section class="box" >
+    
+    <div class="wrapper" >
+        <div class="center-line" id="schedulepage">
+            
+          
+        
+        </div>
+        <a >
+          <div class="row row-1">
+            
+            <section style="background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);">
+              
+              <h3 style="text-align: center;">ROUND 1</h3>
+              <i class="icon fas fa-globe"></i>
+
+              <div class="details">
+                <span class="title">Abstract Submission</span>
+                <span><p>Submission through <a  href="https://forms.gle/oURpEeAGZ1PPdK4U9" target="_blank" style="color: black ;">Google forms</a></p></span>
+              </div>
+              <div class="details">
+                <span class="title">Deadline</span>
+                <span><p>10-05-2021 / 11:59 PM IST</p></span>
+              </div>
+              <div class="details">
+                <span class="title">Intimation of Results</span>
+                <span><p>12-05-2021 / 09:00 AM – 10:00 PM</p></span>
+              </div>
+              
+                     
+           </section>
+          
+          </div>
+          <div class="row row-2">
+            <section style="background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);">
+              <h3 style="text-align: center;">13th May 2021</h3>
+              <i class="icon fas fa-globe"></i>
+              <p style="text-align:center;font-size:20px;">DAY 1- Inauguration</p>
+              <div class="details">
+                <span class="title">Foregathering of Delegates</span>
+                <span><p>9:45am-10:00am</p></span>
+              </div>
+              <div class="details">
+                <span class="title">Inauguration Ceremony</span>
+                <span><p>10.00am-10.45am</p></span>
+              </div>
+              <div class="details">
+                <span class="title">Special Address by<br><h5 style="color:gold;">Dr. Adil Usman(IEEE SPAx&nbsp;Chair)</h5><h5 style="color:gold;">Ms. Celia Shahnaz(IEEE Bangladesh Chair)</h5></span>
+                <span><p>10:45am-11:00am</p></span>
+              </div>
+              <div class="details">
+                <span class="title">Trumpet Call - <br><h5 style="color:gold;">Ms. Celia Shahnaz(IEEE Bangladesh Chair)</h5></span>
+                <span><p>11:00am-12:00pm</p></span>
+              </div>
+              
+              <div class="details">
+                <span class="title">Guest Speaker Address by<br><h5 style="color:gold;">Mr. Rajendran Dhandapani(President, Zoho School of learnings)</h5>
+                </span>
+                <span><p>12:00am-12:45am</p></span>
+              </div>
+              <div class="details">
+                <span class="title">Round 2 Begins</span>
+                <span><p>1:00pm-9:30am (14/05/2021)</p></span>
+              </div>
+            </section>
+          </div>
+          <div class="row row-1">
+            <section style="background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);">
+              <h3 style="text-align: center;">14th May 2021</h3>
+              <i class="icon fas fa-globe"></i>
+              <p style="text-align:center;font-size:20px;">DAY 2</p>
+              <div class="details">
+                <span class="title">Forgathering</span>
+                <span><p>9:45am-10:00am</p></span>
+              </div>
+              <div class="details">
+                <span class="title">Round 2 demonstration</span>
+                <span><p>10:00am-12:00pm</p></span>
+              </div>
+             
+              <div class="details">
+                <span class="title">Round 3 begins</span>
+                <span><p>12.30pm-9:30am (15/05/2021)</p></span>
+              </div>
+            </section>
+          </div>
+          
+        
+        <div class="row row-2">
+          <section style="background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);">
+            <h3 style="text-align: center;">15th May 2021</h3>
+              <i class="icon fas fa-globe"></i>
+              <p style="text-align:center;font-size:20px;">DAY 3</p>
+            <div class="details">
+              <span class="title">Foregathering</span>
+              <span><p>9:45am-10.00am</p></span>
+            </div>
+          
+          <div class="details">
+            <span class="title">Round 3 demonstration</span>
+            <span><p>10.00am-12:00pm</p></span>
+          </div>
+          <div class="details">
+            <span class="title">Fun activities</span>
+            <span><p>12.00pm-12:15pm</p></span>
+          </div>
+          
+        </div>
+
+        <div class="row row-1">
+          <section style="background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);">
+            <h3 style="text-align: center;">Valedictory Function </h3>
+            <i class="icon fas fa-globe"></i>
+            <div class="details">
+              <span class="title">Valedictory Function</span>
+              <span><p>4.00pm-4:20pm</p></span>
+            </div>
+            <div class="details">
+              <span class="title">Valedictory Address-<br><h5 style="color:gold;">Ms. Simay Akar (Candidate for IEEE Women in Engineering Committee Chair-Elect 2022)</h5></span>
+              <span><p>4.20pm-4:40pm</p></span>
+            </div>
+            <div class="details">
+              <span class="title">Prize Distribution</span>
+              <span><p>4:40pm-4:55pm</p></span>
+            </div>
+          </section>
+        </div>
+      </section>
+        </a>
+      </div>
+</section>-->
+
+
+<section class="neon-block">
+  <div class="big-block">
+      <div class="rainbow"></div>
+      <div class="softrate just1" style="font-family: sans-serif;text-align:center;">
+         <h2 style="font-family: sans-serif;text-align:center;">Prize amounts will be revealed soon</h2>
+          
+      </div>
+  </div>
+</section>
+<footer class="site-footer" style="height:fit-content;">
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <div class="footer-social">
+                  <ul class="flex flex-wrap justify-content-center align-items-center">
+                      <li><a href="#"></a></a></li>
+                      <li><a href="https://www.linkedin.com/in/tech-novacion-026a8a210/"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="https://www.instagram.com/technovacion_21" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                      <li><a href="https://www.facebook.com/technovacion.technovacion" target="_blank"><i class="fa fa-facebook"  ></i></a></li>
+                      <li><a href="https://twitter.com/Technovacion21" target="_blank"><i class="fa fa-twitter"  ></i></a></li>
+                      <li><a href="https://youtube.com/channel/UC2saVFCaPT4rlI-a2Ngkd5g" target="_blank"><i class="fa fa-youtube-play"  ></i></a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<div class="back-to-top flex justify-content-center align-items-center">
+  <span>
+      <a href="#">
+          <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1395 1184q0 13-10 23l-50 50q-10 10-23 10t-23-10l-393-393-393 393q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23z"/>
+          </svg>
+      </a>
+  </span>
+</div>
+
+<script type='text/javascript' src='js\jquery-3.2.1.min.js'></script>
+<script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+<script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+<script type='text/javascript' src='js/swiper.min.js'></script>
+<script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+<script type='text/javascript' src='js/circle-progress.min.js'></script>
+<script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+<script type='text/javascript' src='js/custom.js'></script>
+
+<script type='text/javascript'>
+        
+</script>
+</body>
+</html>
