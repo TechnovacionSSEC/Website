@@ -3,7 +3,7 @@ const second = 1000,
   hour = minute * 60,
   day = hour * 24;
 
-let countDown = new Date("May 04, 2022 09:00:00").getTime(),
+let countDown = new Date("May 10, 2022 18:00:00").getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -54,13 +54,13 @@ items.forEach((item) => item.addEventListener("click", toggleAccordion));
        var textArray = [
          "","",
         "Technovacion'22",
-         "May 4th - 6th 2022",
+         "May 16th - 18th 2022",
          "Technovacion'22",
-         "May 4th - 6th 2022",
+         "May 16th - 18th 2022",
          "Technovacion'22",
-         "May 4th - 6th 2022",
+         "May 16th - 18th 2022",
          "Technovacion'22", 
-         "May 4th - 6th 2022"
+         "May 16th - 18th 2022"
         ];
         
         // Speed (in milliseconds) of typing.
