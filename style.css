@@ -2724,7 +2724,7 @@ ul.tabs-nav .tab-nav.active {
 }
 .video-container {
     /* width is set as 100% here. any width can be specified as per requirement */
-    width: 80%;
+    width: 60%;
     padding-top: 56.25%;
     height: 0px;
     position: relative;
@@ -2732,7 +2732,7 @@ ul.tabs-nav .tab-nav.active {
 
 .video {
     width: 100%;
-    height: 100%;
+    height: 70%;
     position: absolute;
     top: 0;
     left: 0;
