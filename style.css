@@ -124,7 +124,7 @@ a:hover, a:active {
 # Site Header
 --------------------------------*/
 .site-header {
-    position: relative;
+    position: absolute;
     
 }
 
@@ -138,7 +138,7 @@ a:hover, a:active {
 .header-bar {
     
     height: 10%;
-    position:fixed;
+    position:absolute;
     top: 0;
     left: 0;
     z-index: 99;
